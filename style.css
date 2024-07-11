@@ -24,7 +24,7 @@ body {
 
 .main-container img {
     margin: auto;
-    width: 600px;
+    width: 100%;
     border-radius: 15px;
 }
 
