@@ -79,6 +79,20 @@ body {
     margin-left: 30px;
 }
 
+.main-container .preparation-container li::marker {
+    color: purple;
+}
+
+.main-container .ingredients-container li::marker {
+    color: #8d483c;
+}
+
+.main-container .instruction-container li::marker {
+    color: #8d483c;
+    font-size: 17px;
+    font-weight: 600;
+}
+
 .main-container .nutrition-container table {
     width: 100%;
     padding-top: 20px;
