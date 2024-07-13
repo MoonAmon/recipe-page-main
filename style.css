@@ -10,7 +10,7 @@ body {
     justify-content: center;
 }
 
-.main-container {
+main {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -22,13 +22,13 @@ body {
     border-radius: 25px;
 }
 
-.main-container img {
+main img {
     margin: auto;
     width: 100%;
     border-radius: 15px;
 }
 
-.main-container {
+main {
     font-family: "Outfit";
     color: #757575;
     font-weight: 400;
@@ -37,73 +37,73 @@ body {
     gap: 20px;
 }
 
-.main-container hr {
+main hr {
     border: none;
     height: 2px;
     color: #757575;
 }
 
-.main-container .title {
+main .title {
     font-family: "Young Serif", serif;
     color: #8d483c;
     font-weight: 400;
     border: 10px;
 }
 
-.main-container .intro-text .title-primary {
+main .intro-text .title-primary {
     font-family: "Young Serif", serif;
     color: hsl(24, 5%, 18%);
     font-weight: 400;
 }
 
-.main-container .intro-text p {
+main .intro-text p {
     padding: 20px 0;
     font-weight: 400;
 }
 
-.main-container .preparation-container h3 {
+main .preparation-container h3 {
     color: #763249;
     padding: 5px;
 }
 
-.main-container .preparation-container {
+main .preparation-container {
     font-family: "Outfit";
     background-color: #fdf5fa;
     padding: 15px;
     border-radius: 10px;
 }
 
-.main-container .preparation-container li, .main-container .ingredients-container li, .instruction-container li {
+main .preparation-container li, main .ingredients-container li, .instruction-container li {
     vertical-align: middle;
     padding: 5px 5px 5px 15px;
     margin-left: 30px;
 }
 
-.main-container .preparation-container li::marker {
+main .preparation-container li::marker {
     color: purple;
 }
 
-.main-container .ingredients-container li::marker {
+main .ingredients-container li::marker {
     color: #8d483c;
 }
 
-.main-container .instruction-container li::marker {
+main .instruction-container li::marker {
     color: #8d483c;
     font-size: 17px;
     font-weight: 600;
 }
 
-.main-container .nutrition-container table {
+main .nutrition-container table {
     width: 100%;
     padding-top: 20px;
 }
 
-.main-container .nutrition-container table .value-nutrition {
+main .nutrition-container table .value-nutrition {
     color: #8d483c;
     font-weight: 600;
 }
 
-.main-container .nutrition-container table td {
+main .nutrition-container table td {
     padding: 8px;
     border-bottom: 1px solid #757575;
 }
